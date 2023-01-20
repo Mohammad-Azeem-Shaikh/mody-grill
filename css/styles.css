@@ -1,0 +1,1003 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+body{
+    background-color: rgb(37, 37, 37);
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.first-sec{
+    background-color: rgb(1, 1, 1);
+    z-index: 1;
+    position: relative;
+}
+.first-main{
+    display: flex;
+    padding: 20px 0
+}
+.first-main img{
+    width: 200px;
+    cursor: pointer;
+}
+.navbar{
+    color: white;
+    margin: auto 0;
+    margin-left: 40px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+ul{   
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    color: yellow;
+}
+nav ul li:hover{
+    background-color: yellow;
+    color: black;
+}
+#active-now{
+    background-color: yellow;
+    color: black;
+}
+ul{
+    border: 2px solid yellow;
+}
+li{
+    padding: 10px 50px;
+}
+/* second-section */
+.second-sec{
+    background: url('../images/hero-bg.png'), linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(42, 41, 41));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+}
+.second-main{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-plate-one{
+    position: relative;
+    top: -11px;
+    left: -76px;
+}
+.hero-plate-two{
+    position: relative;
+    top: -27px;
+    right: -76px;
+    z-index: 0;
+}
+.titles{
+    font-family: 'Open Sans',sans-serif;
+    border: 7px solid yellow;
+    font-size: 2rem;
+    text-transform: uppercase;
+    width: fit-content;
+}
+.mid-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.opening-party{
+    padding: 10px 50px;
+    background-color: yellow;
+    outline: 1px solid yellow;
+}
+.opening-party h2{
+    font-weight: 800;
+}
+.date{
+    padding: 10px 50px;
+    text-align: center;
+    color: white;
+}
+.date h3{
+    font-weight: 800;
+}
+.text{
+    padding: 70px 0;
+}
+.text p{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Open Sans',sans-serif;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    font-weight: 100;
+}
+.navigations{
+    color: yellow;
+    font-size: 1.5rem;
+    width: 35%;
+    justify-content: space-between;
+    display: flex;
+}
+/* third-sec */
+.third-sec{
+    background: url('../images/menu-bg.png'), linear-gradient(to right, rgba(255, 0, 0, 0), rgb(42, 41, 41));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+}
+.third-main{
+    padding: 40px 0;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu h4{
+    font-family: 'Open Sans',sans-serif;
+    text-transform: capitalize;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 5px 5px 10px black;
+}
+.menu-pics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.menu-row-one{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.menu-row-two{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-card{
+    border: 2px solid yellow;
+    width: 25%;
+}
+.card-head{
+    background-color: yellow;
+    padding: 5px 0 5px 10px;
+    outline: 1px solid yellow;
+}
+.card-head h5{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.body-row{
+    display: flex;
+    justify-content: space-between;
+}
+.card-body{
+    font-family: 'Open Sans',sans-serif;
+    color: white;
+    font-size: 1.1rem;
+    padding: 15px 10px;
+    text-transform: capitalize;
+}
+.row-mid{
+    padding: 15px 0
+}
+
+/* forth-section */
+.forth-sec{
+    background: url('../images/discount-bg.png'), linear-gradient(to bottom,rgba(1,1,1,0), rgb(71 69 69));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;   
+}
+.forth-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.side-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.text-one{
+    text-align: right;
+    color: yellow;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 4rem;
+}
+.bold-text{
+    font-weight: 800;
+    font-size: 4rem;
+}
+.discount-btn{
+    background-color: yellow;
+    color: black;
+    font-family: 'FjallaOne',sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    padding: 13px 40px;
+    text-transform: uppercase;
+    border: none;
+}
+.text-two{
+    text-align: right;
+}
+.meat-experience{
+    color: yellow;
+    font-family: 'FjallaOne',sans-serif;
+    text-transform: capitalize;
+    font-size: 1.9rem;
+    text-shadow: 1px 7px 10px black;
+    font-weight: 700;
+}
+/* fifth section */
+.fifth-sec{
+    background: url('../images/special-bg.png'), linear-gradient(to bottom, rgba(1,1,1,0),rgb(71 69 69));
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+}
+.fifth-main{
+    padding-top: 80px;
+}
+.fifth-text{
+    display: flex;
+    justify-content: space-around;
+}
+.fifth-text-one{
+    border: 3px solid yellow;
+}
+.fifth-head{
+    background-color: yellow;
+    outline: 1px solid yellow;
+}
+.fifth-head h6{
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+.fifth-body h6{
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding: 50px 50px;
+    color: white;
+    text-align: center;
+}
+.fifth-text-two{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.fifth-text-two p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    line-height: 1.2;
+}
+.fifth-images{
+    position: relative;
+    height: fit-content;
+}
+.special-plate{
+    position: absolute;
+    left: 3%;
+}
+.special-knives{
+    position: relative;
+    left: 60%;
+    top: 220px;
+}
+.special-desserts{
+    position: absolute;
+    right: 20px;
+}
+/* sixth-section */
+.sixth-sec{
+    background: url('../images/method-bg.png'), linear-gradient(to bottom, rgba(1,1,1,0),rgb(42, 41, 41));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+}
+.sixth-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 200px;
+}
+.sixth-txt{
+    display: flex;
+    justify-content: end;
+}
+.sixth-card{
+    border: 5px solid yellow;
+    width: 80%;
+}
+.sixth-head{
+    background-color: yellow;
+    outline: 1px solid yellow;
+    padding: 10px 20px;
+}
+.sixth-head h5{
+    font-family: 'open Sans',sans-serif;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+.sixth-body{
+    padding: 15px 20px;
+}
+.sixth-body p{  
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+.hide{
+    height: 80px;
+    background-color: black;
+}
+/* seventh-section */
+.seventh-sec{
+    background-image: url('../images/music-bg.png'), linear-gradient(to bottom, rgba(1,1,1,0),rgb(42, 41, 41));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+}
+.music-meats{
+    width: 100%;
+}   
+.seventh-txt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.seventh-main{
+    padding-top: 80px;
+}
+.txt-one{
+    border: 5px solid yellow;
+    width: 30%;
+}
+.txt-one-head{
+    background-color: yellow;
+    outline: 1px solid yellow;
+    text-align: center;
+    border-bottom: 5px solid yellow;
+}
+.txt-one-head h5{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 10px 0px;
+}
+.txt-one-body{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px 0;
+}
+.txt-one-body h5{
+    padding-bottom: 20px;
+}
+.txt-one-body h6{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.txt-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    width: 50%;
+}
+.txt-two p{
+    font-family: 'open sans',sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+/* eighth-section */
+.eighth-main{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0 60px;
+}
+.logo-box{
+    padding-bottom: 30px;
+}
+.menu-box{
+    display: flex;
+    padding: 50px 0;
+    width: 60%;
+    justify-content: space-evenly;
+}
+.text-box h5{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: yellow;
+    text-shadow: 0px 10px 10px black;
+}
+.timing-card{
+    border: 3px solid yellow;
+}
+.timing-head{
+    background-color: yellow;
+    outline: 1px solid yellow;
+    text-align: center;
+}
+.timing-head h5{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.timing-body{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding: 30px 10px 20px;
+}
+.timing-body p{
+    padding-bottom: 10px;
+}
+.menu-card-two{
+    display: flex;
+}
+.menu-one{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.menu-two{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.address-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.street-box{
+    font-family: 'Open Sans',sans-serif;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+}
+.social-box{
+    display: flex;
+    color: yellow;
+    width: 30%;
+    justify-content: space-around;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: 'Open Sans',sans-serif;
+}
+.social-box p{
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+.menu-one ul{
+    flex-direction: column;
+    border: none;
+}
+.menu-one li{
+    padding: 10px 20px;
+}
+.menu-two li{
+    padding: 10px 20px;
+}
+.menu-one ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu-two ul{
+    flex-direction: column;
+    border: none;
+}
+.menu-two ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* tablet width:768px */
+@media only screen and (max-width:768px){
+    .container{
+        width: 95%;
+    }
+    nav ul li:hover{
+        background-color: yellow;
+        color: black;
+    }
+    .first-main img {
+        width: 100px;
+        cursor: pointer;
+    }
+    .navbar nav ul li{
+        font-size: 1rem;
+    }
+    .navbar li {
+        padding: 10px 25px;
+    }
+    nav ul li:hover{
+        background-color: yellow;
+        color: black;
+    }
+    .hero-plate-one,.hero-plate-two{
+        height: 100vh;
+    }
+    .navigations {
+        color: yellow;
+        font-size: 1rem;
+        justify-content: space-between;
+        display: flex;
+        width: 60%;
+    }
+    .hero-plate-one {
+        position: relative;
+        top: -8px;
+        left: -5px;
+    }
+    .hero-plate-two {
+        position: relative;
+        top: -15px;
+        right: -13px;
+    }
+    .opening-party {
+        padding: 10px 20px;
+        background-color: yellow;
+        outline: 1px solid yellow;
+        text-align: center;
+    }
+    .titles{
+        font-size: 1rem;
+        width: fit-content;
+    }
+    .text p {
+        font-size: 1rem;
+    }
+    .mid-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text {
+        padding: 40px 0;
+    }
+    .date{
+        padding: 10px 40px;
+    }
+    .second-main {
+        display: flex;
+        justify-content: space-around;
+    }
+    .text p {
+        font-size: 1.5rem;
+        width: max-content;
+    }
+    /* third-sec */
+    .menu-pics img{
+        width: 30%;
+    }
+    .side-image{
+        width: 50%;
+    }
+    .side-image img{
+        width: 100%;
+    }
+    .text-one {
+        font-size: 2rem;
+    }
+    .bold-text {
+        font-weight: 800;
+        font-size: 2rem;
+    }
+    .bold-text {
+    font-weight: 800;
+    font-size: 2rem;
+    }
+    .discount-btn {
+        font-size: 1rem;
+        padding: 10px 30px;
+    }
+    .text-two img{
+        width: 120px;
+    }
+    .thin-text{
+        padding-bottom: 5px;
+    }
+    .meat-experience {
+        font-size: 1.5rem;
+    }
+    .fifth-head h6 {
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+    .fifth-body h6 {
+        padding: 30px 50px;
+        font-size: 1.2rem;
+    }
+    .fifth-text{
+        justify-content: space-evenly;
+    }
+    .fifth-text-two p {
+        font-size: 1rem;
+    }
+    .special-plate {
+        position: absolute;
+        left: 2%;
+        width: 60%;
+        top: 50px;
+    }
+    .special-knives {
+        position: relative;
+        left: 59%;
+        top: 120px;
+        width: 30%;
+    }
+    .special-desserts {
+        position: absolute;
+        width: 30%;
+        right: -15px;
+        top: -5px;
+    }
+    /* sixth-sec */
+    .sixth-main{
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+    .sixth-img{
+        width: 50%;
+    }
+    .sixth-img img{
+        width: 100%;
+    }
+    .sixth-txt {
+        width: 50%;
+        justify-content: center;
+    }
+    .sixth-head h5 {
+        font-size: 2rem;
+    }
+    .sixth-body p {
+        font-size: 1rem;
+    }
+    /* seventh-sec */
+    .seventh-main {
+        padding-top: 50px;
+        padding-bottom: 5px;
+    }
+    .seventh-txt {
+        display: flex;
+        justify-content: end;
+    }
+    .txt-one {
+        border: 5px solid yellow;
+        width: 35%;
+    }
+    .txt-one-head h5 {
+        font-size: 1.8rem;
+    }
+    .txt-one-body {
+        font-size: 2rem;
+        padding: 20px 0;
+    }
+    .txt-one-body h5 {
+        padding-bottom: 5px;
+    }
+    .txt-one-body h6 {
+        font-size: 1.8rem;
+    }
+    .txt-two {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        padding: 0px 20px 20px;
+        width: 50%;
+    }
+    .txt-two p {
+        font-family: 'open sans',sans-serif;
+        font-size: 1.2rem;
+        color: white;
+    }
+    .logo-box img{
+        width: 120px;
+    }
+    .text-box h5{
+        font-size: 1.7rem;
+    }
+    .menu-one{
+        font-size: 1.2rem;
+    }
+    .menu-two{
+        font-size: 1.2rem;
+    }
+    .menu-box{
+        width: 80%;
+        display: flex;
+        padding: 50px 0;
+        justify-content: space-between;
+    }
+    .timing-head h5{
+        font-size: 1.8rem;
+    }
+    .timing-body{
+        font-size: 1.2rem;
+        padding: 20px 10px 20px;
+    }
+    .street-box{
+        font-size: 1.3rem;
+    }
+    .social-box{
+        width: 37%;
+        font-size: 1.5rem;
+        justify-content: space-between;
+    }
+    .social-box p{
+        font-size: 1.3rem;
+    }
+    .side-text{
+        justify-content: space-between;
+        padding: 20px 0;
+        padding-right: 10px;
+    }
+    .eighth-main{
+        padding: 80px 0;
+    }
+}
+/* mobile css at width:425px */
+@media only screen and (max-width:524px){
+    .container{
+        width: 95%;
+    }
+    nav ul li:hover{
+        background-color: yellow;
+        color: black;
+    }
+    .first-main{
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    .first-main img{
+        width: 150px;
+        padding: 20px 0;
+    }
+    .navbar{
+        margin-left: 0;
+    }
+    .navbar ul{
+        display: block;
+        border: none;
+    }
+    .navbar nav{
+        width: 100%;
+    }
+    .navbar nav ul li{
+        font-size: 1.5rem;
+    }
+    /* second-main */
+    .second-main{
+        padding: 50px 0;
+    }
+    .text{
+        padding: 0;
+        padding-top: 20px;
+    }
+    .mid-content{
+        padding-bottom: 0;
+    }
+    .navigations{
+        display: none;
+    }
+    .second-main img{
+        display: none;
+    }
+    .menu-pics{
+        padding: 15px 0;
+    }
+    .menu-row-one{
+        display: block;
+        padding-bottom: 0;
+    }
+    .menu-card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .menu-row-two{
+        display: block;
+    }
+    /* third section in mobile */
+    .third-main{
+        padding: 40px 15px 40px 10px;
+    }
+    /* forth section in mobile */
+    .side-text{
+        padding: 0;
+        align-items: center;
+    }
+    .forth-main{
+        flex-direction: column-reverse;
+
+    }
+    .side-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .side-image img{
+        width: 90%;
+    }
+    .text-one{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .text-two{
+        text-align: center;
+    }
+    .text-two img {
+        width: 120px;
+        padding-bottom: 10px;
+    }
+    /* fifth section in mobile */
+    .fifth-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fifth-text-one{
+        width: 70%;
+    }
+    .fifth-text-two{
+        width: 72%;
+        padding-top: 15px;
+        text-align: justify;
+    }
+    .fifth-head h6{
+        text-align: center;
+    }
+    .fifth-body h6{
+        padding: 20px 50px;
+    }
+    .special-plate{
+        top: 35px;
+    }
+    .special-knives{
+        top: 70px;
+    }
+    .special-desserts{
+        right: -5px;
+    }
+    /* sixth section in mobile */
+    .sixth-main{
+        flex-direction: column-reverse;
+    }
+    .sixth-txt{
+        width: 100%;
+        padding-bottom: 35px;
+    }
+    .sixth-card{
+        width: 75%;
+    }
+    .sixth-head{
+        text-align: center;
+    }
+    .sixth-body{
+        padding: 10px 10px;
+        text-align: justify;
+    }
+    .sixth-img{
+        width: 100%;
+        text-align: center;
+    }
+    .sixth-img img{
+        width: 60%;
+    }
+    /* seventh section in mobile */
+    .seventh-txt{
+        flex-direction: column;
+        align-items: center;
+    }
+    .txt-one{
+        width: 70%;
+    }
+    .txt-one-head h5{
+        padding: 5px 0;
+    }
+    .txt-one-body{
+        padding: 10px 0;
+    }
+    .txt-two{
+        padding: 20px 0 10px;
+        width: 72%;
+        text-align: justify;
+    }
+    .txt-two p{
+        font-size: 1.1rem;
+    }
+    /* eigtht section in mobile */
+    .menu-box{
+        flex-direction: column;
+    }
+    .menu-card-two{
+        justify-content: center;
+    }
+    .menu-card-two{
+        padding-top: 15px;
+    }
+    .menu-one ul{
+        text-align: center;
+    }
+    .menu-two{
+        text-align: center;
+    }
+    .address-box{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .social-box{
+        width: 55%;
+        font-size: 1.2rem;
+    }
+    .street-box{
+        padding-bottom: 10px;
+    }
+    .social-box p{
+        font-size: 1.2rem;
+    }
+    .eighth-main{
+        padding: 40px 0;
+    }
+    /* .menu h4{
+        font-size: 2rem;
+    }
+    .card-head h5{
+        font-size: 1rem;
+    }
+    .menu-card{
+        width: 30%;
+    }
+    .card-body{
+        padding: 5px;
+        font-size: 1rem;
+    } */
+}
